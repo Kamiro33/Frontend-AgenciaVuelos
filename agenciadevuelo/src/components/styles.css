@@ -1,0 +1,91 @@
+/* estilos.css */
+
+/* styles.css */
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #6ac8fa;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-top: 10px;
+  color: #151313; /* Color de texto rojo */
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #ff0000; /* Color de fondo rojo */
+  color: #f5ecec; /* Color de texto blanco */
+}
+
+.resultados {
+  margin-top: 20px;
+}
+
+.resultado-item {
+  background-color: #f8586d;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  position: relative;
+}
+
+.avion-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-image: url('C:\Users\Lenovo\Documents\Avion\mañana.png');
+  background-size: cover;
+}
+.labell {
+  margin-top: 10px;
+  color: #191818; /* Color de texto  */
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("C:\Users\Lenovo\Documents\Avion\12345.jpg") center/cover no-repeat;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.resultado-item {
+  background-color: #f8586d;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+}
+
+.resultado-item::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid #6ac8fa;
+  border-radius: 7px;
+}
+
+
